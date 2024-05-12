@@ -1,15 +1,7 @@
-ytd-rich-section-renderer {
-    display: none !important;
-}
-
-ytd-guide-entry-renderer:has(a[title="Shorts"]) {
-    display: none !important;
-}
-
-ytd-mini-guide-entry-renderer:has(a[title="Shorts"]) {
-    display: none !important;
-}
-
-yt-tab-shape[tab-title="Shorts"] {
+ytd-rich-section-renderer,
+ytd-guide-entry-renderer:has(a[title="Shorts"]),
+ytd-mini-guide-entry-renderer:has(a[title="Shorts"]),
+yt-tab-shape[tab-title="Shorts"],
+ytd-reel-shelf-renderer {
     display: none !important;
 }
